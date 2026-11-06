@@ -1,0 +1,17 @@
+# **Yêu cầu đầu ra**
+
+## Xác định Input (Ngữ cảnh + Mã lỗi nguyên văn), Process (Cách AI xử lý thông tin), Output (Bản dịch và 3 bước sửa lỗi).
+
+- Input: Bối cảnh (mới học, kém tiếng Anh) + Mã lỗi fatal: not a git repository (or any of the parent directories): .git.
+
+- Process: AI dịch lỗi, phân tích 2 nguyên nhân (chưa git init hoặc sai thư mục) và lập 3 bước xử lý.
+
+- Output: Bản dịch tiếng Việt + 3 bước sửa lỗi kèm lệnh Git.
+
+## Viết câu Prompt hoàn chỉnh theo đúng công thức: Ngữ cảnh → Mã lỗi → Yêu cầu.
+
+- Ngữ cảnh : Tôi là người mới học lập trình, không giỏi tiếng Anh chuyên ngành.
+  
+- Mã lỗi fatal : not a git repository (or any of the parent directories): .git
+  
+- Yêu cầu : Hãy dịch mã lỗi trên sang tiếng Việt dễ hiểu và hướng dẫn tôi sửa lỗi theo đúng 3 bước ngắn gọn kèm câu lệnh.
